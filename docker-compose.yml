@@ -1,0 +1,17 @@
+name: shortify
+
+services:
+  db:
+    image: postgres:16
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: shabi
+      POSTGRES_USER: admeanie
+      POSTGRES_DB: db
+    ports:
+      - "5555:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata:

@@ -1,7 +1,5 @@
 # shortify
 
-FIXME: description
-
 ## Requirements:
 
 - clojure

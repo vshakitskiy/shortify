@@ -5,6 +5,7 @@ profiles.clj
 pom.xml
 pom.xml.asc
 *.jar
+!build/*.jar
 *.class
 /.lein-*
 /.nrepl-port
